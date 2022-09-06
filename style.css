@@ -120,20 +120,23 @@ ul {
 
 .left-side-header{
     padding-bottom: 66px;
+    max-width: 640px;
+    margin-left: auto;
+    /* padding-left:  30px; */
 }
 .decorations{
     z-index: 1;
-    position: absolute;
+    float: right;
     width: 745px;
-    top:3px;
-   right:30px;
+   
 }
 .right-side-header{
     /* position: relative; */
 }
 .hero{
     position: absolute;
-    top:3px;
+    top: 2px;
+    right: 153px;
     z-index: 1000;
 }
 .services h2{
@@ -193,9 +196,14 @@ ul {
 .section-info{
     background: #F6FDF6;
     padding-bottom: 80px;
+    padding-top: 80px;
 }
-.article h4{
-    
+.section-info h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
 }
 .footer{
     font-family: 'Roboto';
