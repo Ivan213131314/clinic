@@ -165,7 +165,7 @@ ul {
 }
 .services-item{
     width: 352px !important;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     background: #F6FDF6;
     border-radius: 14px;
     padding-left: 23px;
@@ -270,4 +270,11 @@ line-height: 140%;
 }
 .info-labell{
     padding-left: 44px !important;
+}
+.info-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
 }
