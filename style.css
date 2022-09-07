@@ -228,6 +228,12 @@ color: #092404;
     display: flex;
     align-items: baseline;
 }
+.imgArticle{
+    height: auto;
+    width: 100%;
+    padding:15px 25px;
+}
+
 .footer-bold{
     font-family: 'Roboto';
     font-style: normal;
@@ -277,4 +283,45 @@ line-height: 140%;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+}
+.top-nav{
+    display: none !important;
+}
+.imgMobile{
+    display: none;
+}
+@media screen and (max-width:993px){
+    .top-nav{
+        display:block !important;
+    }
+    .desctop-menu{
+        display: none;
+    }
+    .desctop-decorations{
+        display: none;
+    }
+    .left-side-header{
+        max-width: 100%;
+        padding-left: 50px;
+    }
+    .imgArticle{
+      
+    }
+    .article{
+        display: block !important;
+    }
+    .imgDesctop{
+        display: none;
+       
+    }
+    .imgMobile{
+        display: block;        
+    }
+}
+
+@media screen and (max-width:540px){
+    .left-side-header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }

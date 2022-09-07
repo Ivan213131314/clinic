@@ -11,11 +11,37 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./burgerMenu.css">
     <title>Document</title>
 </head>
 <body>
     
        <header >
+            <section class="top-nav">
+                <div>
+                    <div class="left-side d-flex align-items-center">
+                        <div class="pe-3">
+                            <img src="./img/header/Rectangle.png" alt="">
+                        </div>
+                        <div class="pe-5">
+                            <b>Алковрач</b>
+                        </div>
+                     
+                    </div>
+                </div>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <ul class="menu">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                    <li>Four</li>
+                    <li>Five</li>
+                </ul>
+          </section>
+          <section class="desctop-menu">
             <div class="header-info container d-flex justify-content-between align-items-center pt-2">
                 <div class="d-flex no-wrap">
                    <div class="pe-3">О клинике</div>
@@ -131,9 +157,11 @@
                 </div>
                 
             </div>
+          </section>
+            
 
             <div class="d-flex justify-content-between  position-relative">
-                <div class="col-6 p-0 m-0 ">
+                <div class="col-lg-6 col-md-12 p-0 m-0 ">
                     <div class="left-side-header">
                         <h1 class="m-0" style="padding-top:52px">Частная наркологическая клиника в Москве</h1>
                         <div class="list" style="padding:36px 0 29px 0">
@@ -168,8 +196,11 @@
                             <button class="btn-green">Отправить заявку</button>
                         </div>
                     </div>
+                    <img src="./img/mobile/Decorations.png" alt="" style="width: 100%; height:100%;">
                 </div>
-                <div class="col-6 p-0 m-0 " style="padding-top: 84px !important;">
+                
+
+                <div class="col-6 p-0 m-0 desctop-decorations" style="padding-top: 84px !important;">
                     
                         <img src="./img/header/hero.png" class="hero" alt="">
                         <img src="./img/header/decorations.png" class="decorations" alt="">
@@ -181,7 +212,7 @@
             <section class="services container" >
                 
                 <h2>Наши услуги</h2>
-                <div class="row m-0 p-0 d-flex justify-content-between pt-4" >
+                <div class="row m-0 p-0 d-flex justify-content-md-between justify-content-center pt-4 mob-services" >
                     
                         <div class="services-item mb-4 col-xl-4 col-lg-6 col-sm-12  ">
                             <h3>Алкоголизм</h3>
@@ -346,23 +377,22 @@
                             <p class="info-text">Одни из наиболее опасных хронических заболеваний, от которых каждый год страдают тысячи пациентов, это алкоголизм и наркомания. Из-за патологической тяги к спиртным напиткам и запрещенным веществам у многих разрушается здоровье и деградирует личность, они лишаются работы, семьи и дома, нередко оказываясь на улице. Все это факторы, повышающие вероятность преждевременной смерти, которая может наступить в любой момент. Шанс исправить ситуацию коренным образом есть, если обратиться за медицинской помощью в наркологическую клинику. Врачи проводят эффективную комплексную терапию, добиваясь хороших результатов, благодаря индивидуальному подходу к каждому человеку.</p>
                         </div>
                         
-                            <img src="./img/main/img.png" alt="" class="img1">
+                            <img src="./img/main/img.png" alt="" class="imgArticle">
                     </div>
                     <div class="article d-flex pt-4">
-                                <img src="./img/main/img (1).png" alt="" style="max-width: 546px;">
-                                <div  class="ps-4">
-                                    <h4>
-                                        Особенности лечения в частной наркологической клинике
-                                    </h4>
-                                    <div class="paragraph">
-                                        <p class="info-text">Многие семьи и зависимые тянут с тем, чтобы начать проходить комплексную терапию в течение долгого времени, опасаясь огласки. В этом случае проблема решается, благодаря обращению в платную наркологическую клинику. Здесь каждому пациенту дают следующие гарантии:</p>
-                                    </div>
-                                    <div class="paragraph">
-                                        
-                                        <p class="info-text"><span class="number">01</span> В отличие от государственной больницы зависимого не ставят на учет в  наркологический диспансер. Информация о пациенте не покидает пределов медицинского учреждения, квалифицированные врачи обеспечивают полную В частной наркологической клинике доступные цены на все услуги. Клиенты могут получить предварительную бесплатную консультацию. Каждому предлагают несколько терапевтических программ по разной стоимости, чтобы лечение могли пройти алко- и наркозависимые с высокими и низкими доходами.</p>
-                                    </div>
-                                </div>
-                            
+                        <img src="./img/main/img (1).png" alt="" class="imgDesctop">
+                        <div  class="ps-4">
+                            <h4>
+                                Особенности лечения в частной наркологической клинике
+                            </h4>
+                            <div class="paragraph">
+                                <p class="info-text">Многие семьи и зависимые тянут с тем, чтобы начать проходить комплексную терапию в течение долгого времени, опасаясь огласки. В этом случае проблема решается, благодаря обращению в платную наркологическую клинику. Здесь каждому пациенту дают следующие гарантии:</p>
+                            </div>
+                            <div class="paragraph">
+                                
+                                <p class="info-text"><span class="number">01</span> В отличие от государственной больницы зависимого не ставят на учет в  наркологический диспансер. Информация о пациенте не покидает пределов медицинского учреждения, квалифицированные врачи обеспечивают полную В частной наркологической клинике доступные цены на все услуги. Клиенты могут получить предварительную бесплатную консультацию. Каждому предлагают несколько терапевтических программ по разной стоимости, чтобы лечение могли пройти алко- и наркозависимые с высокими и низкими доходами.</p>
+                            </div>
+                        </div>
                     </div>    
 
 
@@ -390,7 +420,10 @@
                            
                             <p class="info-text"> <span class="number">07</span>  наблюдением. Его обеспечивают всем необходимым, в том числе полноценным питанием, чтобы ускорить восстановление.</p>
                         </div>
-                        <!-- <img src="./img/main/img.png" alt=""> -->
+                        <div class="imgMobile text-center">
+                              <img src="./img/main/img (1).png" alt="" class="imgArticles">
+                        </div>
+                      
                     </div>
                 
             </section>
