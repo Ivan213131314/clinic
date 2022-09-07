@@ -17,31 +17,32 @@
 <body>
     
        <header >
-            <section class="top-nav">
-                <div>
-                    <div class="left-side d-flex align-items-center">
-                        <div class="pe-3">
-                            <img src="./img/header/Rectangle.png" alt="">
-                        </div>
-                        <div class="pe-5">
-                            <b>Алковрач</b>
-                        </div>
-                     
+          <section class="top-nav d-flex align-items-center position-fixed">
+                <div class="left-side d-flex align-items-center pt-2 ps-4">
+                    <div class="pe-3">
+                        <img src="./img/header/Rectangle.png" alt="">
                     </div>
+                    <div class="pe-5">
+                        <b>Алковрач</b>
+                    </div>
+                
                 </div>
-                <input id="menu-toggle" type="checkbox" />
-                <label class='menu-button-container' for="menu-toggle">
-                    <div class='menu-button'></div>
-                </label>
-                <ul class="menu">
-                    <li>One</li>
-                    <li>Two</li>
-                    <li>Three</li>
-                    <li>Four</li>
-                    <li>Five</li>
-                </ul>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                    </label>
+                
+                    <ul class="menu__box">
+                    <li><a class="menu__item" href="#">Главная</a></li>
+                            <li><a class="menu__item" href="#">Проекты</a></li>
+                            <li><a class="menu__item" href="#">Команда</a></li>
+                            <li><a class="menu__item" href="#">Блог</a></li>
+                            <li><a class="menu__item" href="#">Контакты</a></li>
+                    </ul>
+                </div> 
           </section>
-          <section class="desctop-menu">
+          <section class="desctop-menu ">
             <div class="header-info container d-flex justify-content-between align-items-center pt-2">
                 <div class="d-flex no-wrap">
                    <div class="pe-3">О клинике</div>
@@ -166,16 +167,16 @@
                         <h1 class="m-0" style="padding-top:52px">Частная наркологическая клиника в Москве</h1>
                         <div class="list" style="padding:36px 0 29px 0">
                             <div class="d-flex align-items-center">
-                                 <h2 class="pe-3">01</h2> Гарантия анонимности
+                                 <h2 class="pe-3 h2-mob">01</h2> <span class="text-mob">Гарантия анонимности</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <h2 class="pe-3">02</h2> В стационаре и на дому
+                                <h2 class="pe-3 h2-mob">02</h2><span class="text-mob"> В стационаре и на дому</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <h2 class="pe-3">03</h2> Приезд врача в течении 40 минут
+                                <h2 class="pe-3 h2-mob ">03</h2><span class="text-mob">Приезд врача в течении 40 минут</span> 
                             </div>
                             <div class="d-flex align-items-center">
-                                 <h2 class="pe-3">04</h2> Реабилитация с пожизненной гарантией от срыва
+                                 <h2 class="pe-3 h2-mob">04</h2><span class="text-mob">Реабилитация с пожизненной гарантией от срыва</span> 
                             </div>
     
                         </div>
@@ -195,8 +196,10 @@
                             </div>
                             <button class="btn-green">Отправить заявку</button>
                         </div>
+                        <button class="btn-green button-mob">Отправить заявку</button>
                     </div>
-                    <img src="./img/mobile/Decorations.png" alt="" style="width: 100%; height:100%;">
+                    <img src="./img/header/hero.png" class="heroMobile" alt="" style="width: 100%; height:auto; padding-top: 50px;">
+                    <img src="./img/mobile/Decorations.png" alt="" style="width: 100%; height:auto; padding-top: 50px;" class="decorationsMobile">
                 </div>
                 
 
@@ -368,7 +371,7 @@
                         </div>
             </section>
             <section class="section-info">
-                <div class="container">
+                <div class="container ps-4 pe-4">
                     <div class="article d-flex justify-content-between">
                         <div class="me-4">
                             <h4>
@@ -376,12 +379,14 @@
                             </h4>
                             <p class="info-text">Одни из наиболее опасных хронических заболеваний, от которых каждый год страдают тысячи пациентов, это алкоголизм и наркомания. Из-за патологической тяги к спиртным напиткам и запрещенным веществам у многих разрушается здоровье и деградирует личность, они лишаются работы, семьи и дома, нередко оказываясь на улице. Все это факторы, повышающие вероятность преждевременной смерти, которая может наступить в любой момент. Шанс исправить ситуацию коренным образом есть, если обратиться за медицинской помощью в наркологическую клинику. Врачи проводят эффективную комплексную терапию, добиваясь хороших результатов, благодаря индивидуальному подходу к каждому человеку.</p>
                         </div>
-                        
-                            <img src="./img/main/img.png" alt="" class="imgArticle">
+                            
+                                <img src="./img/main/img.png" alt="" class="imgArticle">
+                            
+                            
                     </div>
-                    <div class="article d-flex pt-4">
+                    <div class="article d-flex pt-4 justify-content-between">
                         <img src="./img/main/img (1).png" alt="" class="imgDesctop">
-                        <div  class="ps-4">
+                        <div  class="ps-4 info-text-mob">
                             <h4>
                                 Особенности лечения в частной наркологической клинике
                             </h4>
@@ -421,7 +426,7 @@
                             <p class="info-text"> <span class="number">07</span>  наблюдением. Его обеспечивают всем необходимым, в том числе полноценным питанием, чтобы ускорить восстановление.</p>
                         </div>
                         <div class="imgMobile text-center">
-                              <img src="./img/main/img (1).png" alt="" class="imgArticles">
+                              <img src="./img/main/img (1).png" alt="" class="imgArticle">
                         </div>
                       
                     </div>
@@ -478,7 +483,7 @@
                         <button class="btn-green w-100 mt-3">Отправить заявку</button>
                     </div>
                     <div class="col-lg-4 pt-3 " >
-                        <div style ="width: 256px; margin-left: auto;">
+                        <div style ="width: 256px; margin-left: auto;" class="footer-link">
                             <div class="footer-h4 text-green pb-3 pb-3">
                                 Полезные ссылки
                             </div>
